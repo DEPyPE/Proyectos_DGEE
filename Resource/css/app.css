@@ -1,0 +1,58 @@
+
+body{
+	background-color: rgb(240, 240, 240);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-statistics-maps, .card-presentations-maps, .card-back2school_world-maps{
+    border-radius: 15px !important;
+}
+
+.image-sample{
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    cursor: pointer !important;
+}
+
+.card-title-front{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100% !important;
+    padding: 3px 15px 3px 15px !important;
+}
+
+.card-image{
+    height: 200px !important;
+    vertical-align: middle !important;
+}
+
+.card-image > img{
+    height: 100% !important;
+}
+
+.row-1{
+    margin-bottom: 0 !important;
+}
+
+.row-2{
+    margin-top: 0 !important;
+}
+
+.collection .collection-item:hover{
+    background-color: rgba(240, 240, 240, 1);
+}
+
+/* ESTILOS PARA EL MODAL */
+#ShowPDFDocuments{
+    top: 30px !important;
+    height: 90% !important;
+    max-height: 90% !important;
+
+    width: 80% !important;
+    max-width: 80% !important;
+}
+
+.display-pdf-document{
+    width: 100% !important;
+    height: 98% !important;
+}
+
