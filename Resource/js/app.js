@@ -2,7 +2,6 @@
 $(function(){
     console.log( 'Ready page...' );
     $('.modal').modal();
-
 });
 
 $('.btn-NB').on('click', function(){
