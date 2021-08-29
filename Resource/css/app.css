@@ -38,6 +38,10 @@ body{
     margin-top: 0 !important;
 }
 
+.row-navbar{
+    margin-bottom: 10px !important;
+}
+
 .collection .collection-item:hover{
     background-color: rgba(240, 240, 240, 1);
 }

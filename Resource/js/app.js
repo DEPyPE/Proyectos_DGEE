@@ -2,6 +2,7 @@
 $(function(){
     console.log( 'Ready page...' );
     $('.modal').modal();
+    $('.tabs').tabs();
 });
 
 $('.btn-NB').on('click', function(){
