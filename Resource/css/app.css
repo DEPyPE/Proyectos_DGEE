@@ -4,19 +4,19 @@ body{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.card-statistics-maps, .card-presentations-maps, .card-back2school_world-maps{
-    border-radius: 15px !important;
+.borders-form{
+    border-radius: 5px !important;
 }
 
 .image-sample{
-    border-top-left-radius: 15px !important;
-    border-top-right-radius: 15px !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
     cursor: pointer !important;
 }
 
 .card-title-front{
-    background-color: rgba(0, 0, 0, 0.5);
-    border-top-left-radius: 15px !important;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
     width: 100% !important;
     padding: 3px 15px 3px 15px !important;
 }
@@ -30,16 +30,43 @@ body{
     height: 100% !important;
 }
 
-.row-1{
+.mb-0{
     margin-bottom: 0 !important;
 }
 
-.row-2{
+.mt-0{
     margin-top: 0 !important;
+}
+
+.mt-30px{
+    margin-top: 30px !important;
 }
 
 .row-navbar{
     margin-bottom: 10px !important;
+}
+
+.year-developed{
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: 600;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.year_group_develop{
+    margin-top: 10px !important;
+}
+
+.collection-propuestas{
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
 }
 
 .collection .collection-item:hover{
